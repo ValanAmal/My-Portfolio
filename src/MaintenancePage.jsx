@@ -46,22 +46,6 @@ const Message = styled.p`
   margin: 0 20px;
 `;
 
-const GlowingButton = styled.button`
-  margin-top: 20px;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 25px;
-  background: linear-gradient(45deg, #6e7ff3, #9c6ef3, #f36ebe);
-  color: #fff;
-  font-size: 1rem;
-  cursor: pointer;
-  box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
-  transition: box-shadow 0.3s ease-in-out;
-
-  &:hover {
-    box-shadow: 0 0 20px rgba(255, 255, 255, 1);
-  }
-`;
 
 const MaintenancePage = () => {
   return (
